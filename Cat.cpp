@@ -7,10 +7,11 @@
 #include "Cat.hpp"
 
 int main(){
-	Cat aCat;
+	Cat aCat, whiteCat;
 	aCat.setName("Dumbo");
 	aCat.setBreed("Huahua");
 	aCat.setAge(4);
 	aCat.printInfo();
+	whiteCat.printInfo();
 	return 0;
 }
